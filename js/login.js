@@ -1,6 +1,6 @@
 const Username = document.getElementById('Username')
 const Password = document.getElementById('Password')
-const butlog = document.getElementById('input')
+const butlog = document.getElementById('butlog')
 
 butlog.addEventListener('click', (e) => {
     e.preventDefault()
