@@ -8,6 +8,7 @@ butlog.addEventListener('click', (e) => {
         Username: Username.value,
         Password: Password.value
     }
+    window.location.href = "http://www.google.com";
     console.log(data)
 })
 
