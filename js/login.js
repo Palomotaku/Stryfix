@@ -4,7 +4,7 @@ const butlog = document.getElementById('butlog')
 
 butlog.addEventListener('click', (e) => {
     e.preventDefault()
-    const data ={
+    const data = {
         Username: Username.value,
         Password: Password.value
     }
