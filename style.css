@@ -267,12 +267,17 @@
 }
 
 /*MENU REMEMBER*/
-.Email-remeber{
+.MenuRemember{
+    display: flex;
+    background: url(img/fondo2.jpg);
+    height: 100vh;
+}
+.Remember{
     position: absolute;
-    top: 27%;
-    left: 55%;
+    top: 15%;
+    left: 40%;
     width: 500px;
-    height: 400px;
+    height: 610px;
     background-color: rgba(255, 255, 255, 0.274);
     backdrop-filter: blur(5px);
     border-radius: 1rem;
