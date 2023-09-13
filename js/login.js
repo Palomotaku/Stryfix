@@ -8,7 +8,7 @@ butlog.addEventListener('click', (e) => {
         Username: Username.value,
         Password: Password.value
     }
-    window.location.href = "http://www.google.com";
+    window.location.href = "https://palomotaku.github.io/Stryfix/inicial.html";
     console.log(data)
 })
 
