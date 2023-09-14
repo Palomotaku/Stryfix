@@ -1,7 +1,8 @@
 const { error } = require("console");
 const { result } = require("lodash");
-const { query } = require("mssql");
+const { query } = require("mssql2");
 const { Connection } = require("mysql2/typings/mysql/lib/Connection");
+const mysql = require("mysql2");
 
 function Registrar(){
     
