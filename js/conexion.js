@@ -1,5 +1,4 @@
-const mysql = require("mysql2");
-
+const mysql = require("mysql");
 const conexion = mysql.createConnection({
     host: "localhost",
     user: "root",
@@ -14,4 +13,6 @@ conexion.connect(function(err){
     else{
         console.log("CONEXION EXITOSA MI KING");
     }
-});
+    conexion.end();
+}
+);

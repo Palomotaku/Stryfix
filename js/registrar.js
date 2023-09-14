@@ -1,7 +1,7 @@
 
 function Registrar(){
     
-    const mysql = require("mysql2");
+    const mysql = require("mysql");
     const conexion = mysql.createConnection({
         host: "localhost",
         user: "root",
