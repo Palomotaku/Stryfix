@@ -1,13 +1,16 @@
-const Username = document.getElementById('Username')
-const Password = document.getElementById('Password')
-const butlog = document.getElementById('butlog')
+function Loguear(){
 
-butlog.addEventListener('click', (e) => {
-    e.preventDefault()
-    const data = {
-        Username: Username.value,
-        Password: Password.value
+    const Username = document.getElementById('Username')
+    const Password = document.getElementById('Password')
+    
+    if(Username==Franco
+        &&
+        Password==123)
+    {
+        window.Location="inicial.html"
     }
-    console.log(data)
-})
-
+    else
+    {
+        alert("Datos incorrecctos")
+    }
+}
