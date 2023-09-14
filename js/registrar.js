@@ -1,5 +1,3 @@
-const mysql = require("mysql2");
-
 function Registrar(){
     
     const mysql = require("mysql2");
