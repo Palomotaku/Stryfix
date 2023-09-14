@@ -1,3 +1,4 @@
+
 function Registrar(){
     
     const mysql = require("mysql2");
