@@ -5,10 +5,13 @@ function Loguear(){
     
     if(Username=="Franco" && Password=="123")
     {
-        window.Location="inicial.html";
+
+        window.location="inicial.html";
     }
+
     else
     {
+        
         alert("Datos incorrecctos");
     }
 }
