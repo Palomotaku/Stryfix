@@ -1,7 +1,3 @@
-const { error } = require("console");
-const { result } = require("lodash");
-const { query } = require("mssql2");
-const { Connection } = require("mysql2/typings/mysql/lib/Connection");
 const mysql = require("mysql2");
 
 function Registrar(){
@@ -22,10 +18,10 @@ function Registrar(){
     const mysql2 = 'INSERT INTO usuario (Email, Nam, LNam, Pass, Pho, Ubi) VALUES(?,?,?,?,?,?)';
     const values = [Correo, Nombre, Apellido, Password,'',''];
     
-    Connection.query(query, values, (error, results, fields) => {
+    conexion.query(query, values, (error, results, fields) => {
         if(error) throw error;
         console.log('Se agrego con exito')
     });
 
-    Connection.end();
+    conexion.end();
 }  
