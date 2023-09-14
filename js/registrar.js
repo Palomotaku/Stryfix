@@ -26,5 +26,7 @@ function Registrar(){
         }else{
             console.log(results);
         }
-    })
+    });
+
+    Connection.end();
 }  
