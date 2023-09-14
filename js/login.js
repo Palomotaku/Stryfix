@@ -6,12 +6,12 @@ function Loguear(){
     if(Username=="Franco" && Password=="123")
     {
 
-        window.location="inicial.html";
+        window.location.href="inicial.html";
     }
 
     else
     {
-        
+
         alert("Datos incorrecctos");
     }
 }
