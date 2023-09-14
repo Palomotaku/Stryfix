@@ -1,11 +1,9 @@
 function Loguear(){
 
-    const Username = document.getElementById('Username').value;
-    const Password = document.getElementById('Password').value;
+    let Username = document.getElementById('Username').value;
+    let Password = document.getElementById('Password').value;
     
-    if(Username=="Franco"
-        &&
-        Password=="123")
+    if(Username=="Franco" && Password=="123")
     {
         window.Location="inicial.html";
     }
