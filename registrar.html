@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>StryFix - Registrar</title>
     <link href="style.css" rel="stylesheet">
+    <script src="js/registrar.js"></script>
 </head>
 <body>
     <div class="MenuRegister">
@@ -12,19 +13,19 @@
             <h1>Registrar</h1>
             <form method="post">
                 <div class="Name">
-                    <input type="text" placeholder="Nombres" required>
+                    <input type="text" placeholder="Nombres" id="r_Name" required>
                 </div>
                 <div class="LastName">
-                    <input type="text" placeholder="Apellidos" required>
+                    <input type="text" placeholder="Apellidos" id="r_LastName" required>
                 </div>
                 <div class="Correo">
-                    <input type="text" placeholder="Correo" required>
+                    <input type="text" placeholder="Correo" id="c" required>
                 </div>
                 <div class="Pass">
-                    <input type="text" placeholder="Contraseña" required>
+                    <input type="text" placeholder="Contraseña" id="r_Pass" required>
                 </div>
                 <div class="Repeat-Pass">
-                    <input type="text" placeholder="Repetir Contraseña" required>
+                    <input type="text" placeholder="Repetir Contraseña" id="r_Repeat-Pass" required>
                 </div>
                 <div class="Check-In">
                     <input type="submit" class="btn" value="Registrarse">
