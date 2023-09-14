@@ -268,7 +268,5 @@
 
 /*MENU REMEMBER*/
 .MenuRemember{
-    display: flex;
     background: url(img/fondo2.jpg);
-    height: 100vh;
 }
