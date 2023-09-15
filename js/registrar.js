@@ -17,7 +17,7 @@ function Registrar(){
     const mysql = 'INSERT INTO usuario (Email, Nam, LNam, Pass, Pho, Ubi) VALUES(?,?,?,?,?,?)';
     const values = [Correo, Nombre, Apellido, Password,'',''];
     
-    conexion.query(query, values, (error, fields) => {
+    conexion.query(mysql, values, (error, fields) => {
         if(error) throw error;
         console.log('Se agrego con exito')
     });
