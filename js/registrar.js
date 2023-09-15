@@ -14,7 +14,7 @@ function Registrar(){
     const Correo = document.getElementById('r_Correo').value;
     const Password = document.getElementById('r_Pass').value;
 
-    const mysql2 = 'INSERT INTO usuario (Email, Nam, LNam, Pass, Pho, Ubi) VALUES(?,?,?,?,?,?)';
+    const mysql = 'INSERT INTO usuario (Email, Nam, LNam, Pass, Pho, Ubi) VALUES(?,?,?,?,?,?)';
     const values = [Correo, Nombre, Apellido, Password,'',''];
     
     conexion.query(query, values, (error, fields) => {
