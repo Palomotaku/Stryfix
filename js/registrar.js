@@ -1,7 +1,5 @@
-// import mysql from 'mysql';
+import mysql from 'mysql';
 function Registrar(){
-    
-    const mysql = require("mysql");
     const conexion = mysql.createConnection({
         host: "localhost",
         user: "root",
