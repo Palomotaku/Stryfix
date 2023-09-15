@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Proyecto de pequeña red social",
   "main": "index.html",
+  "type": "module",
   "dependencies": {
     "abort-controller": "^3.0.0",
     "adal-node": "^0.2.4",
