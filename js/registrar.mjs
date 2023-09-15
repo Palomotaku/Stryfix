@@ -1,4 +1,3 @@
-import { query } from 'mssql';
 import mysql from 'mysql';
 export function Registrar(){
     const conexion = mysql.createConnection({
